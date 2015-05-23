@@ -9,20 +9,43 @@ function extract_random_element(array_) {
 
 onLoad = function() {
 	cells = document.querySelectorAll("td");
-	for (var i = 0; i < cells.length; i++) {
-		// Randomize content
-		element = extract_random_element(tropes);
-		cells[i].innerText = element;
+
+	// Load and store state in local storage
+	state = localStorage.getItem("v1");
+	if (!state) {
+		tropes = [];
+		for (var i = 0; i < cells.length; i++) {
+			// Randomize content
+			tropes.push(extract_random_element(all_tropes));
+		}
+		state = {
+			"tropes": tropes,
+			"checked": []
+		}
+		localStorage.setItem("v1", JSON.stringify(state));
+	} else {
+		state = JSON.parse(state);
+		for (var i = 0; i < cells.length; i++) {
+			if (state.checked[i]) {
+				cells[i].classList.add("checked");
+			}
+		}
+	}
+	
+	state.tropes.forEach(function(_, i) {
+		cells[i].innerText = state.tropes[i];
 		// Set up click listener to toggle "checked" class on target element
 		cells[i].addEventListener("click", function (event) {
 			event.currentTarget.classList.toggle("checked");
+			state.checked[i] = event.currentTarget.classList.contains("checked");
+			localStorage.setItem('v1', JSON.stringify(state));
 		});
-	}
+	});
 };
 
 document.addEventListener('DOMContentLoaded', onLoad, false);
 
-tropes = ["Clothing change", 
+all_tropes = ["Clothing change", 
 "Instrument gimmick", 
 "Keychange", 
 "Rap", 
