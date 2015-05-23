@@ -8,12 +8,13 @@ table {
 }
 
 td {
-	border: 1px dashed #ccc;
+	border: 2px solid #ccc;
 }
 
 td {
 
 	font-family: 'Rancho', cursive;
+	font-size: 1.3em;
 	text-align: center;
 	vertical-align: center;
 	overflow: auto;
@@ -22,6 +23,15 @@ td {
 td {
 	padding: 1em;
 	width: 15%;
+}
+td.checked {
+	background: repeating-linear-gradient(
+		45deg,
+		#E0EBEB,
+		#E0EBEB 5px,
+		transparent 5px,
+		transparent 20px
+	);
 }
 
 body {
