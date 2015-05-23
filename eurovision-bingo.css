@@ -17,4 +17,5 @@ table, td {
 }
 td {
 	text-align: center;
+	vertical-align: center;
 }
