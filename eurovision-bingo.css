@@ -1,23 +1,35 @@
 
-#top
-{
-	text-align: center;
+
+table {
+    table-layout: fixed;
+	width: 80%;
+	margin: 0 auto;
+    border-collapse: collapse;
 }
 
-#mid
-{
+td {
+	border: 1px dashed #ccc;
 }
 
-#footer
-{
-	text-align: center;
-}
-table, td {
-	border: 2px solid black;
-}
 td {
 
 	font-family: 'Rancho', cursive;
 	text-align: center;
 	vertical-align: center;
+	overflow: auto;
+}
+
+td {
+	padding: 1em;
+	width: 15%;
+}
+
+body {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#footer, #footer a {
+	color: #aaa;
 }
