@@ -1,23 +1,20 @@
-body
+
+#top
 {
-	#top
-	{
-		text-align: center;
-	}
+	text-align: center;
+}
 
-	#mid
-	{
-		table, td {
-			display: table;
-			border: 3px solid black;
-		}
-		td {
-			text-align: center;
-		}
-	}
+#mid
+{
+}
 
-	#footer
-	{
-		text-align: center;
-	}
+#footer
+{
+	text-align: center;
+}
+table, td {
+	border: 2px solid black;
+}
+td {
+	text-align: center;
 }
