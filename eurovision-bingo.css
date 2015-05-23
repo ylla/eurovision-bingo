@@ -8,7 +8,7 @@ table {
 }
 
 td {
-	border: 2px solid #ccc;
+	border: 2px solid #868D8D;
 }
 
 td {
@@ -30,7 +30,7 @@ td.checked {
 		#E0EBEB,
 		#E0EBEB 5px,
 		transparent 5px,
-		transparent 20px
+		transparent 10px
 	);
 }
 
@@ -41,5 +41,5 @@ body {
 }
 
 #footer, #footer a {
-	color: #aaa;
+	color: #868D8D;
 }
