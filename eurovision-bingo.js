@@ -7,16 +7,20 @@ function extract_random_element(array_) {
 	return array_.splice(index, 1)[0];
 }
 
-populate = function() {
+onLoad = function() {
 	cells = document.querySelectorAll("td");
 	for (var i = 0; i < cells.length; i++) {
+		// Randomize content
 		element = extract_random_element(tropes);
 		cells[i].innerText = element;
+		// Set up click listener to toggle "checked" class on target element
+		cells[i].addEventListener("click", function (event) {
+			event.currentTarget.classList.toggle("checked");
+		});
 	}
 };
 
-document.addEventListener('DOMContentLoaded', populate, false);
-
+document.addEventListener('DOMContentLoaded', onLoad, false);
 
 tropes = ["Clothing change", 
 "Instrument gimmick", 
