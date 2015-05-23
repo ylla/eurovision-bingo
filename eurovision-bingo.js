@@ -31,7 +31,7 @@ onLoad = function() {
 			}
 		}
 	}
-	
+
 	state.tropes.forEach(function(_, i) {
 		cells[i].innerText = state.tropes[i];
 		// Set up click listener to toggle "checked" class on target element
@@ -40,6 +40,11 @@ onLoad = function() {
 			state.checked[i] = event.currentTarget.classList.contains("checked");
 			localStorage.setItem('v1', JSON.stringify(state));
 		});
+	});
+
+	document.querySelector("#reset").addEventListener("click", function(event) {
+		localStorage.clear();
+		location.reload();
 	});
 };
 
