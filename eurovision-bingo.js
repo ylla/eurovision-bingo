@@ -7,22 +7,28 @@ function extract_random_element(array_) {
 	return array_.splice(index, 1)[0];
 }
 
+var VERSION = "v2";
+
 onLoad = function() {
 	cells = document.querySelectorAll("td");
 
 	// Load and store state in local storage
-	state = localStorage.getItem("v1");
+	state = localStorage.getItem(VERSION);
 	if (!state) {
 		tropes = [];
+		trope_indexes = [];
+		all_tropes.forEach(function (_, i) {
+			trope_indexes.push(i);
+		});
 		for (var i = 0; i < cells.length; i++) {
 			// Randomize content
-			tropes.push(extract_random_element(all_tropes));
+			tropes.push(extract_random_element(trope_indexes));
 		}
 		state = {
 			"tropes": tropes,
 			"checked": []
 		}
-		localStorage.setItem("v1", JSON.stringify(state));
+		localStorage.setItem(VERSION, JSON.stringify(state));
 	} else {
 		state = JSON.parse(state);
 		for (var i = 0; i < cells.length; i++) {
@@ -33,12 +39,12 @@ onLoad = function() {
 	}
 
 	state.tropes.forEach(function(_, i) {
-		cells[i].innerText = state.tropes[i];
+		cells[i].innerText = all_tropes[state.tropes[i]];
 		// Set up click listener to toggle "checked" class on target element
 		cells[i].addEventListener("click", function (event) {
 			event.currentTarget.classList.toggle("checked");
 			state.checked[i] = event.currentTarget.classList.contains("checked");
-			localStorage.setItem('v1', JSON.stringify(state));
+			localStorage.setItem(VERSION, JSON.stringify(state));
 		});
 	});
 
