@@ -39,7 +39,7 @@ onLoad = function() {
 	}
 
 	state.tropes.forEach(function(_, i) {
-		cells[i].innerText = all_tropes[state.tropes[i]];
+		cells[i].textContent = all_tropes[state.tropes[i]];
 		// Set up click listener to toggle "checked" class on target element
 		cells[i].addEventListener("click", function (event) {
 			event.currentTarget.classList.toggle("checked");
