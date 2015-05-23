@@ -16,6 +16,8 @@ table, td {
 	border: 2px solid black;
 }
 td {
+
+	font-family: 'Rancho', cursive;
 	text-align: center;
 	vertical-align: center;
 }
