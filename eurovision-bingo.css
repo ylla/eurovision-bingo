@@ -17,7 +17,7 @@ td {
 	font-size: 1.3em;
 	text-align: center;
 	vertical-align: center;
-	overflow: auto;
+	overflow: hidden;
 }
 
 td {
