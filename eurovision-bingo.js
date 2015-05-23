@@ -1,3 +1,23 @@
+function random_range(lower, upper) {
+	return lower + Math.floor((upper - lower) * Math.random());
+}
+
+function extract_random_element(array_) {
+	index = random_range(0, array_.length);
+	return array_.splice(index, 1)[0];
+}
+
+populate = function() {
+	cells = document.querySelectorAll("td");
+	for (var i = 0; i < cells.length; i++) {
+		element = extract_random_element(tropes);
+		cells[i].innerText = element;
+	}
+};
+
+document.addEventListener('DOMContentLoaded', populate, false);
+
+
 tropes = ["Clothing change", 
 "Instrument gimmick", 
 "Keychange", 
@@ -32,7 +52,7 @@ tropes = ["Clothing change",
 "Obvious wailing", 
 "Balloons", 
 "Greeting from artist that were unable to make it today", 
-"Wave/shoutout to family member in the audience", 
+"A shoutout/wave to family member in the audience", 
 "Overwhelming facepalm", 
 "Dancers uniforms don't match artist and/or irrelevant to song", 
 "Artist <18 yrs of age", 
@@ -61,7 +81,7 @@ tropes = ["Clothing change",
 "Hand movement 5+ sec", 
 "Questionable props", 
 "Heavy breathing in mic (no chocolate rain)", 
-"Languages that are not english and not native", 
+"Lyrics other than English or native language", 
 "Chocking nudity", 
 "Patriotism", 
 "Bellybutton showing", 
@@ -76,23 +96,3 @@ tropes = ["Clothing change",
 "Sign with name", 
 "Comical sign", 
 "Peace theme from war nation"]
-
-
-function random_range(lower, upper) {
-	return lower + Math.floor((upper - lower) * Math.random());
-}
-
-function extract_random_element(array_) {
-	index = random_range(0, array_.length);
-	return array_.splice(index, 1)[0];
-}
-
-populate = function() {
-	cells = document.querySelectorAll("td");
-	for (var i = 0; i < cells.length; i++) {
-		element = extract_random_element(tropes);
-		cells[i].innerText = element;
-	}
-};
-
-document.addEventListener('DOMContentLoaded', populate, false);
