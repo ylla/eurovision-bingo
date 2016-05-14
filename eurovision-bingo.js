@@ -153,7 +153,7 @@ all_tropes = [
 	"On-stage selfie",
 	"Tinfoil hat",
 	"Destroying equipment",
-	"Winking to camera"
-	"Selfie stick used by artist"
+	"Winking to camera",
+	"Selfie stick used by artist",
 	"Bald person banging on drums" // Thanks Kathi
 ]
