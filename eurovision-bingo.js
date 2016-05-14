@@ -72,7 +72,8 @@ all_tropes = [
 	"Band name used in decoration",
 	"Odd singing registers (falsetto, tuvan throat singing, yodeling, etc)",
 	"Retro-famous dance move",
-	"\"Hello Vienna!\"", // TODO: update next year
+	"\"Hello Stockholm!\"", // TODO: update next year
+	"\"I love you Stockholm!\"", // TODO: update next year
 "Side step-dance",
 	"GLITTER",
 	"Tight overall (clothing)",
@@ -114,7 +115,7 @@ all_tropes = [
 	"Performers leaning back-to-back",
 	"Smoke machine",
 	"Backstage footage",
-	"Reporter is outdoors",
+	"Live outdoors footage",
 	"Sepia-filter",
 	"Accordion, violin, flute, harmonica or harp",
 	"Hand movement 5+ sec",
@@ -140,9 +141,9 @@ all_tropes = [
 	"Song inappropriate for senior citizens",
 	"Siblings on stage",
 	"Pornstache",
-	"Song sharing a title with one previously performed",
+	"Song sharing a title with one previously performed", //As made famous 2015
 	"Violent disposal of footwear",
-	"Breaking the fourth wall",
+	// "Breaking the fourth wall", //Was added in 2015, can't remember why? Might cause confusion to user/not obvious.
 	"Preposterous dress",
 	"Shocking shoes",
 	"Flying",
@@ -153,4 +154,6 @@ all_tropes = [
 	"Tinfoil hat",
 	"Destroying equipment",
 	"Winking to camera"
+	"Selfie stick used by artist"
+	"Bald person banging on drums" // Thanks Kathi
 ]
