@@ -156,5 +156,6 @@ all_tropes = [
 	"Winking to camera",
 	"Selfie stick used by artist",
 	"Bald person banging on drums", // Thanks Kathi
-	"Appearing taller than they really are"
+	"Appearing taller than they really are",
+	"Animal costume"
 ]
