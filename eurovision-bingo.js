@@ -72,8 +72,8 @@ all_tropes = [
 	"Band name used in decoration",
 	"Odd singing registers (falsetto, tuvan throat singing, yodeling, etc)",
 	"Retro-famous dance move",
-	"\"Hello Stockholm!\"", // TODO: update next year
-	"\"I love you Stockholm!\"", // TODO: update next year
+	"\"Hello Kiev!\"", // TODO: update next year
+	"\"I love you Kiev!\"", // TODO: update next year
 "Side step-dance",
 	"GLITTER",
 	"Tight overall (clothing)",
