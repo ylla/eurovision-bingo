@@ -78,9 +78,9 @@ all_tropes = [
 	"Band name used in decoration",
 	"Odd singing registers (falsetto, tuvan throat singing, yodeling, etc)",
 	"Retro-famous dance move",
-	"\"Hello Kiev!\"", // TODO: update next year
-	"\"I love you Kiev!\"", // TODO: update next year
-"Side step-dance",
+	"\"Hello Lisbon!\"", // TODO: update next year
+	"\"I love you Lisbon!\"", // TODO: update next year
+	"Side step-dance",
 	"GLITTER",
 	"Tight overall (clothing)",
 	"Song is not serious song",
@@ -149,7 +149,6 @@ all_tropes = [
 	"Pornstache",
 	"Song sharing a title with one previously performed", //As made famous 2015
 	"Violent disposal of footwear",
-	// "Breaking the fourth wall", //Was added in 2015, can't remember why? Might cause confusion to user/not obvious.
 	"Preposterous dress",
 	"Shocking shoes",
 	"Flying",
