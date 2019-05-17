@@ -78,8 +78,8 @@ all_tropes = [
 	"Band name used in decoration",
 	"Odd singing registers (falsetto, tuvan throat singing, yodeling, etc)",
 	"Retro-famous dance move",
-	"\"Hello Lisbon!\"", // TODO: update next year
-	"\"I love you Lisbon!\"", // TODO: update next year
+	"\"Hello Tel Aviv!\"", // TODO: update next year
+	"\"I love you Tel Aviv!\"", // TODO: update next year
 	"Side step-dance",
 	"GLITTER",
 	"Tight overall (clothing)",
@@ -131,7 +131,6 @@ all_tropes = [
 	"Shocking nudity",
 	"Patriotism",
 	"Belly button showing",
-	"\"Didn't Enya do this first?\"",
 	"\"Is the UK/France/Germany taking this seriously?\"",
 	"Interim entertainment would have easily won",
 	"Artist of color",
@@ -148,7 +147,7 @@ all_tropes = [
 	"Siblings on stage",
 	"Pornstache",
 	"Song sharing a title with one previously performed", //As made famous 2015
-	"Violent disposal of footwear",
+	"Disposal of footwear",
 	"Preposterous dress",
 	"Shocking shoes",
 	"Flying",
@@ -162,5 +161,9 @@ all_tropes = [
 	"Selfie stick used by artist",
 	"Bald person banging on drums", // Thanks Kathi
 	"Appearing taller than they really are",
-	"Animal costume"
+	"Animal costume",
+	"Dreads",
+	"Artist in tracksuit or acti-leisure wear",
+	"Face as decoration",
+	"Breakdance",
 ]
