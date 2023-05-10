@@ -149,6 +149,9 @@ all_tropes = [
 	"Song sharing a title with one previously performed", //As made famous 2015
 	"Disposal of footwear",
 	"Preposterous dress",
+	"Obviously artificial hair",
+	"Multiple performers with same hair dress",
+	"Artificial nails",
 	"Shocking shoes",
 	"Flying",
 	"(Dis)apparation",
