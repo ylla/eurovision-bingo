@@ -174,4 +174,5 @@ all_tropes = [
 	"Floor glass crack effect",
 	"Good evening Europe!",
 	"Good morning Australia!",
+	"Latin-inspired from outside the Iberian Peninsula",
 ]
