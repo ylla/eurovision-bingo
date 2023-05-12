@@ -166,10 +166,12 @@ all_tropes = [
 	"Artist in tracksuit or acti-leisure wear",
 	"Face as decoration",
 	"Breakdance",
+	"Obviously artificial hair",
+	"Multiple performers with same hair dress",
+	"Artificial nails",
 	"Ostrich feathers",
 	"Unicorn in audience",
 	"Floor glass crack effect",
 	"Good evening Europe!",
 	"Good morning Australia!",
-
 ]
