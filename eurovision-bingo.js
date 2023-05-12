@@ -175,4 +175,5 @@ all_tropes = [
 	"Good evening Europe!",
 	"Good morning Australia!",
 	"Latin-inspired from outside the Iberian Peninsula",
+	"Voguing",
 ]
