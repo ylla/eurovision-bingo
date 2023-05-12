@@ -95,7 +95,7 @@ all_tropes = [
 	"Technical delay",
 	"Boob shock",
 	"Vocal microphone effects",
-	"Obvious wailing",
+	"Wailing",
 	"Balloons",
 	"Greeting from artist that was unable to make it",
 	"Shoutout/wave to family member in the audience",
@@ -159,7 +159,7 @@ all_tropes = [
 	"Destroying equipment",
 	"Winking to camera",
 	"Selfie stick used by artist",
-	"Bald person banging on drums", // Thanks Kathi
+	"Person banging on drums", // Thanks Kathi
 	"Appearing taller than they really are",
 	"Animal costume",
 	"Dreads",
@@ -169,4 +169,9 @@ all_tropes = [
 	"Obviously artificial hair",
 	"Multiple performers with same hair dress",
 	"Artificial nails",
+	"Ostrich feathers",
+	"Unicorn in audience",
+	"Floor glass crack effect",
+	"Good evening Europe!",
+	"Good morning Australia!",
 ]
